@@ -1,10 +1,40 @@
 @charset "UTF-8";
 
+*{
+   
+    margin: 0px;
+    padding: 0px;
+}
+
 header{
     text-align: center;
    
 }
 
-div{
+img{
     width: 100%;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+section > p.papai{
+    text-align: center;
+}
+
+section.normal{
+    background-color: white;
+    color: black;
+  }
+  
+section.imagem{
+    background-color: black;
+    color: white;
+    padding: 5px;
+  
 }
