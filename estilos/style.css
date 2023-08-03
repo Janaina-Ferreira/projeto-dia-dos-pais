@@ -47,3 +47,9 @@ section#imagem01{
     background-position: center center;
     
 }
+
+section#imagem02{
+    background-image: url(../imagens/papai-eu.jpg);
+    background-position: center center;
+    width: 100%;
+}
