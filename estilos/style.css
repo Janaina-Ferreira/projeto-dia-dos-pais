@@ -59,9 +59,9 @@ section#imagem01{
 }
 
 section#imagem02{
-    background-image: url(../imagens/papai-eu-01.jpg);
+    background-image: url();
     background-position: center center;
-    width: 100%;
+   
 }
 
 footer{
