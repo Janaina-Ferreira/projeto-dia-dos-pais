@@ -16,7 +16,7 @@ img{
 }
 
 section{
-    padding-top: 15vh;
+    padding-top: 10vh;
     padding-bottom: 15vh;
     line-height: 2em;
     padding-left: 30px;
@@ -35,7 +35,7 @@ section.normal{
 section.imagem{
     background-color: rgb(46, 42, 42);
     color: white;
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
   
@@ -43,7 +43,7 @@ section.imagem{
 
 section#imagem01{
    
-    background-image: url(../imagens/papai-e-vovó-01.jpg);
+    background-image: url(../imagens/papai-e-vovó-011.jpg);
     background-position: center center;
     
 }
