@@ -54,7 +54,7 @@ section.imagem{
 
 section#imagem01{
     
-    background-image: url(../imagens/01.jpg);
+    background-image: url(../imagens/001.jpg);
     background-position: center center;
     
 }
@@ -67,6 +67,10 @@ section#imagem02{
 
 div{
     padding: 10px;
+}
+
+div.tudo{
+     padding: 50px;
 }
 
 footer{
