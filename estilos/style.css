@@ -1,5 +1,13 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2? family= Bebas+Neue & family= Oxanium:wght@300;400;700 & family= Sriracha & display=swap');
+
+:root{
+    --fonte1: verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
+}
+
 *{
    
     margin: 0px;
@@ -17,10 +25,12 @@ img{
 
 section{
     padding-top: 10vh;
-    padding-bottom: 15vh;
+    padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
     padding-right: 30px;
+    font-family: var(--fonte3);
+    font-size: clamp(1em, 0.7em + 1vw, 1.5em);
 }
 
 section > p.papai{
@@ -49,7 +59,14 @@ section#imagem01{
 }
 
 section#imagem02{
-    background-image: url(../imagens/papai-eu.jpg);
+    background-image: url(../imagens/papai-eu-01.jpg);
     background-position: center center;
     width: 100%;
+}
+
+footer{
+    background-color: rgb(5, 105, 105);
+    color: black;
+    text-align: center;
+    padding: 10px;
 }
