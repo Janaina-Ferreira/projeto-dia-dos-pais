@@ -14,6 +14,16 @@
     padding: 0px;
 }
 
+div.tudo{
+    margin-left: 5%;
+    margin-right: 5%;
+   
+}
+
+   
+   
+
+
 header{
     text-align: center;
     padding: 0px 10px;
@@ -32,6 +42,7 @@ section{
     padding-right: 30px;
     font-family: var(--fonte3);
     font-size: clamp(1em, 0.7em + 1vw, 1.5em);
+   
 }
 
 section > p.papai{
