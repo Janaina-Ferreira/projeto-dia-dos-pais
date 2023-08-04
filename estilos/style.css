@@ -38,6 +38,7 @@ section{
     padding-right: 30px;
     font-family: var(--fonte3);
     font-size: clamp(1em, 0.7em + 1vw, 1.5em);
+    font-weight: bolder;
    
 }
 
@@ -67,7 +68,7 @@ section#imagem01{
 }
 
 section#imagem02{
-    background-image: url();
+    background-image: url(../imagens/2.jpg);
     background-position: center center;
    
 }
@@ -79,8 +80,9 @@ div{
 
 
 footer{
-    background-color: rgb(5, 105, 105);
-    color: black;
+    background-color: #16ACC7);
+    color: white;
     text-align: center;
+    font-weight: bold;
     padding: 10px;
 }
