@@ -16,15 +16,38 @@
 
 
 
-   
-   
-
 
 header{
     text-align: center;
-    padding: 0px 10px;
+    padding: 0px 10px 0px 10px;
    
 }
+
+h2{
+    background-color: #16ACC7;
+    color: white;
+    padding: 10px;
+    
+   
+}
+
+nav{
+    background-color: #16ACC7;
+    padding: 15px;
+
+  
+    
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    padding-left: 30px;
+    
+
+}
+    
+
 
 img{
     width: 100%;
@@ -80,7 +103,8 @@ div{
 
 
 footer{
-    background-color: #16ACC7);
+    
+    background-color: #16ACC7;
     color: white;
     text-align: center;
     font-weight: bold;
