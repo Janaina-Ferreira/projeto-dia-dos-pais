@@ -6,17 +6,26 @@
     <title>Document</title>
     <style>
     
-    
+    div > p {
+            display: none;
+        }
+
+        div:hover > p {
+            
+            display: block;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            background-color: darkorange;
+        }
         
     </style>
 </head>
 <body>
     
-
-    <section>
+       <div>
         <img src="./imagens/pg1.png" class="01" alt="">
         <p>papai</p>
-    </section>
+       </div>
+
     <section>
         <img src="./imagens/pg12.png"  class="02">
     </section>
@@ -30,5 +39,9 @@
         <img src="./imagens/pg12345.png" alt="">
     </section>
    
+    <audio preload="auto" autoplay controls >
+        <source src="./midia/1968 - TrackTribe.mp3" type="audio/mpeg"> 
+      </audio>
+
 </body>
 </html>
