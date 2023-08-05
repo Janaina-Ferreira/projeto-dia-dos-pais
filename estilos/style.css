@@ -19,17 +19,19 @@
 
 header{
     text-align: center;
-    padding: 0px 10px;
+    padding: 0px;
+   
     
   
    
 }
 
 h2{
+   margin-top: 0px;
     text-align: center;
-   font-size: 150%;
-    background-color: #16ACC7;
-    color: rgb(255, 255, 255);
+    font-size: 150%;
+   
+    color: rgb(0, 0, 0);
     font-weight: bolder;
    
    
@@ -39,7 +41,6 @@ h2{
 
 nav{
     text-align: center;
-    background-color: #16ACC7;
     padding: 3px;
 
   
@@ -47,7 +48,8 @@ nav{
 }
 
 a{
-    color: rgb(7, 7, 7);
+    font-size: 1em;
+    color: #16ACC7;
     text-decoration: none;
     padding-left: 15px;
     font-weight: bolder;
