@@ -4,12 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+
+
     <style>
+      
 
         *{
             margin: 0;
         }
  body{
+   
     background-image: url(https://us.123rf.com/450wm/vanillamilk/vanillamilk1705/vanillamilk170500042/78510001-fundo-sem-emenda-do-doodle-cora%C3%A7%C3%A3o-cora%C3%A7%C3%A3o-preto-azul-e-rosa-teste-padr%C3%A3o-sem-emenda-rom%C3%A2ntico.jpg);
  }
     
@@ -47,8 +55,15 @@
 
      .musica{
         text-align: center;
-        padding: 5px;
+        padding: 10px;
      }
+
+    p.mensagem{
+        font-family: 'Sriracha', cursive;
+       text-align: center;
+       padding: 5px;
+
+    }
 
     div > p {
             display: none;
@@ -57,8 +72,9 @@
         div:hover > p {
             
             display: block;
-            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-family: 'Sriracha', cursive;
             background-color: darkorange;
+
         }
         
     </style>
@@ -70,36 +86,34 @@
     <section>
        <div>
         <img src="./imagens/png1.png"  alt="foto01">
-        <p><img src="./imagens/Picsart_23-08-06_00-46-41-849.png" alt="imagem01"></p>
+        <p class="musica"><img src="./imagens/Picsart_23-08-06_00-46-41-849.png" alt="imagem01"></p>
        </div>
 
        <div class="foto02">
          <img src="./imagens/png2.png" alt="foto02">
-        <p>  <audio preload="auto" autoplay controls >
-            <source src="./midia/1968 - TrackTribe.mp3" type="audio/mpeg"> 
-          </audio></p>
+       
        </div>
 
      <div>
         <img src="./imagens/png3.png" alt="foto03">
-        <p class="musica">Pai, olha só o que eu sou <br>
-            É o que você me ensinou <br>
-            Mesmo sem perceber <br>
+        <p class="mensagem">Pai, olha só o que eu sou,<br>
+            É o que você me ensinou,
+            mesmo sem perceber <br>
             Tudo o que eu sei fazer de bom <br>
-            Copiei de você<br>
+            Copiei de você
             Você dizia filho<br>
-            Aonde você vai?<br>
+            aonde você vai?
             Que horas vai voltar?<br>
-            Quem vai te acompanhar?<br>
+            Quem vai te acompanhar?
             Me ensinou a amar<br>
-            E quando esteve longe<br>
+            E quando esteve longe
             Nunca deixou de cuidar<br>
-            E hoje eu digo pai<br>
-            Aonde você vai?<br>
-            Que dia vai voltar?<br>
+            E hoje eu digo pai
+            aonde você vai?<br>
+            Que dia vai voltar?
             Quero te acompanhar<br>
-            Também não quero ficar<br>
-            Nenhum dia mais<br>
+            Também não quero ficar
+            nenhum dia mais<br>
             Sem te encontrar</p>
     </div>
 
@@ -110,11 +124,10 @@
     
     <div>
         <img src="./imagens/png5.png" alt="foto05">
+        <p class="musica">  <audio preload="auto" autoplay controls >
+            <source src="./musica/audio.mp3" type="audio/mpeg"> 
+          </audio></p>
     </div>
-   
-    <audio preload="auto" autoplay controls >
-        <source src="./midia/1968 - TrackTribe.mp3" type="audio/mpeg"> 
-      </audio>
     </section>
 </body>
 </html>
