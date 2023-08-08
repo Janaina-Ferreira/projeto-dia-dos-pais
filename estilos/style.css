@@ -93,6 +93,13 @@ section.imagem{
   
 }
 
+section.imagem > p{
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.212);
+    text-shadow: 2px 1px 0px black;
+}
+
 section#imagem01{
     
     background-image: url(../imagens/t1.jpg);
