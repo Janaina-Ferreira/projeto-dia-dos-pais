@@ -43,20 +43,25 @@ h2{
 
 nav{
     text-align: center;
-    padding: 3px;
-
+    margin: 10px;
   
     
 }
 
 a{
-    font-size: 1em;
+    font-size: 1.2em;
     color: #16ACC7;
     text-decoration: none;
-    padding-left: 15px;
+    padding: 10px;
     font-weight: bolder;
+    transition: 0.5s;
 
 
+}
+
+a:hover{
+    background-color: rgb(15, 180, 180);
+     color: white;
 }
     
 
